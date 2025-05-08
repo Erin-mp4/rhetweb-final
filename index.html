@@ -40,12 +40,24 @@
             <div class="text">
                 <h2>Prior Ideas</h2>
                 <p>Robots didn't just appear out of nowhere. Influences from places like Jewish folklore around the Golem or the alchemical concept of the homunculus resulted in literary works like Mary Shelley's Frankenstein, which may have influenced the first media around robots.</p>
-                <button data-modal="older" class="more-links">More &#8594;</a>
+                <a class="more-links" onclick="olderPick()">More &#8594;</a>
             </div>
             <div class="visual">
                 <img src="img/golems.jpg" alt="Recreations of golems from Jewish folklore">
             </div>
         </section>
+            <div class="modal" id="older">
+                <div class="modal-content">
+                    <a class="close" onclick="closePick()">&times;</a>
+                    <div class="modal-body">
+                        <img src="img/golems.jpg" alt="Recreations of golems from Jewish folklore">
+                        <div class="modal-text">
+                            <h2>Prior Ideas</h2>
+                            <p>This is just example text for now.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <section class="odd">
             <div class="visual">
                 <img src="img/RUR2.jpg" alt="Rossum's Universal Robots">
@@ -53,31 +65,43 @@
             <div class="text">
                 <h2>Coining the Term</h2>
                 <p>Take a look back at 1921, at the first instance of the word "robot." Karl Capek and his play, Rossum's Universal Robots, took existing ideas and turned them into the machines we see today. His play, which features robots realizing their own strength and autonomy in relation to their human masters.</p>
-                <button data-modal="old" class="more-links">More &#8594;</a>
+                <a class="more-links" onclick="oldPick()">More &#8594;</a>
             </div>
         </section>
+            <div class="modal" id="old">
+                <div class="modal-content">
+                    <a class="close" onclick="closePick()">&times;</a>
+                    <div class="modal-body">
+                        <img src="img/RUR2.jpg" alt="Rossum's Universal Robots">
+                        <div class="modal-text">
+                            <h2>Coining the Term</h2>
+                            <p>This is just example text for now.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <section class="even">
             <div class="text">
                 <h2>Pre-Mainstream</h2>
                 <p>Before the likes of Star Wars and Terminator brought robots to a wider audience, a number of sci-fi authors were speculating about the concept of autonomous machines. Today, Asimov's laws of robotics and Phillip K Dick's Do Androids Dream of Electric Sheep are foundational touchstones for robots in media.</p>
-                <button data-modal="new" class="more-links">More &#8594;</a>
+                <a class="more-links" onclick="newPick()">More &#8594;</a>
             </div>
                 <div class="visual">
                 <img src="img/asimovedit.jpg" alt="Asimov's I, Robot">
             </div>
         </section>
-        <div id="new" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <div class="modal-body">
-                    <img src="img/asimovedit.jpg" alt="Asimov's I, Robot">
-                    <div class="modal-text">
-                        <h2>Pre-Mainstream</h2>
-                        <p>This is just example text for now.</p>
+            <div class="modal" id="new">
+                <div class="modal-content">
+                    <a class="close" onclick="closePick()">&times;</a>
+                    <div class="modal-body">
+                        <img src="img/asimovedit.jpg" alt="Asimov's I, Robot">
+                        <div class="modal-text">
+                            <h2>Pre-Mainstream</h2>
+                            <p>This is just example text for now.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         <section class="odd">
             <div class="visual">
                 <img src="img/c3po.jpg" alt="C-3PO from the Star Wars movies">
@@ -85,14 +109,25 @@
             <div class="text">
                 <h2>Mainstream</h2>
                 <p>Today, robots are ubiquitous in sci-fi and fantasy, but what exactly defines a robot when they're so omnipresent? Here, we take a look at the most common tropes and ideas that make up robots in a modern sense, and how those interpretations became so popular</p>
-                <button data-modal="newer" class="more-links">More &#8594;</a>
+                <a class="more-links" onclick="newerPick()">More &#8594;</a>
             </div>
         </section>
+            <div class="modal" id="newer">
+                <div class="modal-content">
+                    <a class="close" onclick="closePick()">&times;</a>
+                    <div class="modal-body">
+                        <img src="img/c3po.jpg" alt="C=3PO from the Star Wars movies">
+                        <div class="modal-text">
+                            <h2>Mainstream</h2>
+                            <p>This is just example text for now.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
     <footer>
         <p>&copy; 2025 Erin O'Brien</p>
     </footer>
-    <script src="js/jquery-3.7.1.min.js" type="text/javascript"></script>
     <script src="js/logic.js" type="text/javascript"></script>
 </body>
 </html>
