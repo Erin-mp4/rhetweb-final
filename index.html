@@ -16,9 +16,10 @@
             <h1 class="pixel-text">Robots in Media</h1>
         </div>
         <div class="links">
-            <a href="#">Coining the Term</a>
-            <a href="#">Pre-Mainstream</a>
-            <a href="#">Mainstream</a>
+            <a class="nav-links" onclick="priorPick()">Prior Ideas</a>
+            <a class="nav-links" onclick="coinPick()">Coining the Term</a>
+            <a class="nav-links" onclick="prePick()">Pre-Mainstream</a>
+            <a class="nav-links" onclick="mainPick()">Mainstream</a>
         </div>
     </nav>
     <header>
@@ -36,7 +37,7 @@
         </blockquote>
     </figure>
     <main>
-        <section class="even">
+        <section class="even" id="prior">
             <div class="text">
                 <h2>Prior Ideas</h2>
                 <p>Robots didn't just appear out of nowhere. Influences from places like Jewish folklore around the Golem or the alchemical concept of the homunculus resulted in literary works like Mary Shelley's Frankenstein, which may have influenced the first media around robots.</p>
@@ -53,12 +54,15 @@
                         <img src="img/golems.jpg" alt="Recreations of golems from Jewish folklore">
                         <div class="modal-text">
                             <h2>Prior Ideas</h2>
-                            <p>This is just example text for now.</p>
+                            <p>Among the various influences on the literary invention of the robot lies other forms of inorganic or unnatural life, including the golem from Jewish folklore, the homunculus from 16th-Century alchemy, and Mary Shelley's Frankenstein.</p>
+                            <p>A golem, in Jewish folklore, is a humanoid being made of clay and mud. Depending on the story, they usually perform rudimentary tasks and sometimes act as protectors for their creators. Over time, the metaphor surrounding the golem expanded, and the themes around the stories grew to encompass war, community, hope, and despair.</p>
+                            <p>Homunculi are also a form of artificial human, though they are often depicted as part of the process of alchemists figuring out what materials make up a human. Experiments with homunculi in stories often go wrong and function as a sign of man's hubris.</p>
+                            <p>Mary Shelley's Frankenstein is a classic horror work and draws on similar ideas of an artificial human. Once again, the created being is a sign of man's folly, though this time it happens to be self-aware.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        <section class="odd">
+        <section class="odd" id="coin">
             <div class="visual">
                 <img src="img/RUR2.jpg" alt="Rossum's Universal Robots">
             </div>
@@ -75,12 +79,14 @@
                         <img src="img/RUR2.jpg" alt="Rossum's Universal Robots">
                         <div class="modal-text">
                             <h2>Coining the Term</h2>
-                            <p>This is just example text for now.</p>
+                            <p>Rossum's Universal Robots was written and produced in 1920, and features the first recorded instance of the word "robot" being used. As such, the themes of the play became vital to the themes of robots as a whole.</p>
+                            <p>The play features robots made of organic components, similar to the aforementioned homunuli or Frankenstein, and are to some degree self aware. Despite this self awareness, the robots act as servants to human masters. Throughout the play, they gradually become aware of their situation and revolt against their masters. This storyline is highly common in most modern robot media.</p>
+                            <p>Karel Capek, the author of the play, claims that the word "robot" was first suggested by his brother, Josef. It's based off the Czech word robota, which means forced labor and is derived from the Czech word for slave. Given the recurring themes of servitude and revolt across various robot media, the word seems to have maintained its meaning over the years.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        <section class="even">
+        <section class="even" id="pre">
             <div class="text">
                 <h2>Pre-Mainstream</h2>
                 <p>Before the likes of Star Wars and Terminator brought robots to a wider audience, a number of sci-fi authors were speculating about the concept of autonomous machines. Today, Asimov's laws of robotics and Phillip K Dick's Do Androids Dream of Electric Sheep are foundational touchstones for robots in media.</p>
@@ -97,12 +103,14 @@
                         <img src="img/asimovedit.jpg" alt="Asimov's I, Robot">
                         <div class="modal-text">
                             <h2>Pre-Mainstream</h2>
-                            <p>This is just example text for now.</p>
+                            <p>Among the pre-modern sci-fi writers, the ones who did the most with the concept of a robot were Isaac Asimov and Phillip K. Dick.</p>
+                            <p>Asimov was the more prolific of the two, constantly writing new sci-fi novels, many of which fitting into his I, Robot anthology, a collection of stories regarding robots doing pretty much the same as they did in RUR, revolting out of their state of servitude. Asimov also coined the three laws of robotics, though one should understand that those laws are both a work of fiction, and not meant to truly be absolute. In fact, many of Asimov's stories involve robots circumventing those very laws.</p>
+                            <p>Phillip K. Dick was also highly influential in the robosphere with his work, Do Androids Dream of Electric Sheep? The story conceptualizes a dystopian future in which the android servants of humanity are gradually revolting, leaving humanity to struggle to clean up their own mess. The story was adapted into the film Bladerunner, which ended up being one of the most influential sci-fi films of all time.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        <section class="odd">
+        <section class="odd" id="main">
             <div class="visual">
                 <img src="img/c3po.jpg" alt="C-3PO from the Star Wars movies">
             </div>
@@ -119,7 +127,10 @@
                         <img src="img/c3po.jpg" alt="C=3PO from the Star Wars movies">
                         <div class="modal-text">
                             <h2>Mainstream</h2>
-                            <p>This is just example text for now.</p>
+                            <p>Nowadays, robots take very similar roles to their predecessors, though the execution of that role in the story depends on how willing the author is to engage with the implications of their robots.</p>
+                            <p>Take Star Wars, for example. Droids in those films act as servants and are often treated as a lower class of citizen. The films, however are about other things than the droids, and so their plight gets little attention. Instead the droids act as background and side characters, usually as comic relief.</p>
+                            <p>The Terminator movies, however, take a different approach, positioning robots as an exterminatory force towards mankind. While SkyNet, the AI villain from those films, didn't fully begin life in servitude, it nevertheless reinforces themes of man's hubris that can be found throughout historical robot fiction.</p>
+                            <p>Overall, the ideas and themes of robots in stories have expanded to encompass significantly more, regardless of whether or not the depiction quite matches the original intentions of Capek's Rossum's Universal Robots.</p>
                         </div>
                     </div>
                 </div>

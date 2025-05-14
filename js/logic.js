@@ -1,3 +1,15 @@
+function priorPick() {
+    document.getElementById('prior').scrollIntoView();
+}
+function coinPick() {
+    document.getElementById('coin').scrollIntoView();
+}
+function prePick() {
+    document.getElementById('pre').scrollIntoView();
+}
+function mainPick() {
+    document.getElementById('main').scrollIntoView();
+}
 function olderPick() {
     document.getElementById('older').style.display = "flex";
 }
@@ -16,3 +28,4 @@ function closePick() {
     document.getElementById('new').style.display = "none";
     document.getElementById('newer').style.display = "none";
 }
+
